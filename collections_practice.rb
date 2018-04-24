@@ -3,5 +3,5 @@ def sort_array_asc(array_ints)
 end
 
 def sort_array_asc(array_ints)
-  array_ints.sort 
+  array_ints.sort {|x,y| x <=> y}
 end
