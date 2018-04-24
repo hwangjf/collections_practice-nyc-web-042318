@@ -7,6 +7,7 @@ def sort_array_desc(array_ints)
 end
 
 def sort_array_char_count(array_strs)
-  array_strs.
+  array_strs.map do |string|
+    
   end
 end
